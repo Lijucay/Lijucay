@@ -1,1 +1,1 @@
-Personal website, live at https://lijucay.github.io/
+Personal website, live at https://lijucay.de
