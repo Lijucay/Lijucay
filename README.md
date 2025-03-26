@@ -61,4 +61,4 @@ enum class Level(val value: Int, val description: String) {
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1VMB1F)
 
-<a href="https://lijucay.de"><img href="https://img.shields.io/badge/Website-%234285F4?style=flat-square&logo=googlechrome&logoColor=ffffff" alt="website"/></a>
+<a href="https://lijucay.de/"><img alt="Static Badge" src="https://img.shields.io/badge/Website-%234285F4?style=flat-square&logo=googlechrome&logoColor=ffffff"/></a>
