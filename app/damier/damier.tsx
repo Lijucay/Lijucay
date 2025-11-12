@@ -1,6 +1,7 @@
 import damierIcon from '@/public/damier_icon.png';
 import Image from "next/image";
 import damierStack from '@/public/damier_stack.png';
+import Button from "@/app/components/Button";
 
 export default function Damier() {
     return (
@@ -14,9 +15,9 @@ export default function Damier() {
                     <Image src={damierIcon.src} width={70} height={70} alt="damier icon" className="rounded-full"/>
                     <h1 className="text-4xl md:text-6xl mt-10 text-[#326941]">Damier</h1>
                     <p className="text-[#326941] mt-5 text-center w-4/5">Damier is an Android habit tracker, with a Material 3 Expressive design. It is currently in development.</p>
-                    <div className="flex mt-5 justify-end">
-                        <a className="rounded-full bg-[#bdeaf5] text-[#204d55] py-2 px-4 w-fit">More about Damier</a>
-                    </div>
+                    <Button className="bg-[#566435] text-[#f1ffcb] mt-5" href="/damier/">
+                        More about Damier
+                    </Button>
                 </div>
             </div>
     </div>
