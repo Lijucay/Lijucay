@@ -11,7 +11,7 @@ export default function Button( { children, href, className }: { children: React
             href={href}
             className={
                 clsx(
-                    `flex flex-row rounded-full py-2 px-4 w-fit`,
+                    `google-sans-flex-text flex flex-row rounded-full py-2 px-4 w-fit`,
                     className
                 )
             }

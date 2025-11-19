@@ -9,8 +9,8 @@ export default function Qwotable() {
             <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2 flex flex-col justify-center items-center content-center py-10 md:py-0">
                     <Image src={qwotableIcon.src} width={70} height={70} alt="qwotable icon" className="rounded-full"/>
-                    <h1 className="text-4xl md:text-6xl mt-10 text-[#274777]">Qwotable</h1>
-                    <p className="w-4/5 text-[#274777] mt-5 text-center">Qwotable is an Android application for storing quotes. Its development has ended and it will soon be replaced by another application.</p>
+                    <h1 className="google-sans-flex-title text-4xl md:text-6xl mt-10 text-[#274777] font-semibold">Qwotable</h1>
+                    <p className="google-sans-flex-text w-4/5 text-[#274777] mt-5 text-center">Qwotable is an Android application for storing quotes. Its development has ended and it will soon be replaced by another application.</p>
                     <Button href="/qwotable/" className="bg-[#41446c] text-[#cccefe] mt-5">
                         More about Qwotable
                     </Button>
